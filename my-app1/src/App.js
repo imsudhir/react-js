@@ -17,7 +17,7 @@ const App = () =>{
     return (
         <div>
             <Student name="Chandan" id="001" position="Designer"/>
-            <Student name="Amit" id="002" position="Designer"/>
+            <Student name="Amitabh" id="002" position="Designer"/>
             <Student name="Abhishek" id="003" position="Designer"/>
             <Student name="Chandan" id="004" position="Developer"/>
             <Student name="Sudhir" id="005" position="Developer"/>
