@@ -26,5 +26,5 @@ const App = () =>{
     )
 }
 //end create component using function
-// export default App;
+// export default App; 
 export default App; 

@@ -1,9 +1,20 @@
-.bg{
-    text-shadow: 1px 1px #7726b9;
+.my_header{
+padding: 15px 0px;
+background: #1b1d2e;
+color:#666666;;
 }
-.divbg{
-    box-shadow: 8px 8px #42a036;
+.my_notify{
+    float: right;
 }
-#root{
-    background-color: #5e4c8d;
+.card{
+   margin-top: 15px !important; 
+   background-color:#171821;
+
+}  
+.card-body{
+    box-shadow: 1px 0px 4px 1px #000000;
 }
+ .row, .mt-5, body{
+    background-color:#1b1d2e !important;
+
+ }
