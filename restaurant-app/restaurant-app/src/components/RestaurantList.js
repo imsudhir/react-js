@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import {container, Table, Card, Row, Col} from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 
 class RestaurantList extends Component {
     constructor(){
@@ -22,20 +26,36 @@ class RestaurantList extends Component {
     }
     render() {
         return (
-            <div>
-                <h1> Restaurant list</h1>
-                {
+           <React.Fragment>
+            <h2 className="text-center pb-2 ml-5 mr-5 pt-1 headings"> Restaurant list</h2>
+            <Table dark>
+                <thead>
+                    <tr>
+                    <th>Sr.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                     {
                     this.state.list ? (
                       this.state.list.map((lists) => 
                       {
-                    return  (<div>
-                        <h3>Name:  {lists.name} </h3><h5>email: {lists.email}</h5>
-                         </div>)
-                      })  
-                    ) :'Please wait...'
+                    return  (
+                            <tr>
+                            <th scope="row">{lists.id}</th>
+                            <td>{lists.name}</td>
+                            <td>{lists.email}</td>
+                            <td>{lists.rating}</td>
+                            </tr>
+                      )  
+                      }))
+                     :'Please wait...'
                 }
-                
-            </div>
+                </tbody>
+            </Table>
+            </React.Fragment>
         ); 
     }
 }

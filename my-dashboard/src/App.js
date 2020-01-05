@@ -31,7 +31,7 @@ const App = () =>{
           <OffcavassideLink />
           {/* <Row className="mt-4"> */}
           <Route path="/" component={ChartData}/>  
-
+          <ChartData />
           <Route path="/" component={SalesReportButton}/>  
           <Route path="/" component={Team}/>  
           {/* </Row> */}

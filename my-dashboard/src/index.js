@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import Team from './Team';
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
+// import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import * as serviceWorker from './serviceWorker';
 ReactDOM.render(<App />, document.getElementById('root'));
  //ReactDOM.render(<Team />, document.getElementById('page-wrap'));

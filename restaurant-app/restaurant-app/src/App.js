@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import {container, Table, Card, Row, Col} from 'reactstrap';
 import {
   BrowserRouter as Router,
   Route,
   Link
 } from 'react-router-dom';
+import NavLink from "./components/NavLink"
 import RestaurantCreate from "./components/RestaurantCreate";
 import RestaurantDetail from "./components/RestaurantDetail";
 import RestaurantList from "./components/RestaurantList";
@@ -13,33 +15,55 @@ import RestaurantUpdate from "./components/RestaurantUpdate";
 
 function App() {
   return ( 
-    <div className="App Container">
+    <div className="App container-fluid">
       <Router>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/list">List</Link></li>
-        <li><Link to="/create">Create</Link></li>
-        <li><Link to="/search">Search</Link></li>
-        <li><Link to="/detail">Details</Link></li>
-        <li><Link to="/update">Update</Link></li>
-      </ul>
-      <Route path="/list">
-        <RestaurantList />
-      </Route>
-      <Route path="/create">
-        <RestaurantCreate />
-      </Route>
-      <Route path="/detail">
-        <RestaurantDetail />
-      </Route>
-      <Route path="/search">
-        <RestaurantSearch />
-      </Route>
-      <Route path="/update">
-        <RestaurantUpdate />
-      </Route>
-      </Router>
-    </div>
+      <NavLink />  
+    <Row>
+        <Col>
+          <Route path="/list">
+            <RestaurantList />
+          </Route>
+          </Col>
+          <Col>
+          <Route path="/list">
+            <RestaurantList />
+          </Route>
+          </Col>
+          <Col>
+          <Route path="/list">
+            <RestaurantList />
+          </Route>
+          </Col><Col>
+          <Route path="/list">
+            <RestaurantList />
+          </Route>
+          </Col>
+          </Row>
+          <Row>
+          <Col>
+          <Route path="/create">
+            <RestaurantCreate />
+          </Route> 
+          </Col>
+          <Col>
+          <Route path="/detail">
+            <RestaurantDetail />
+          </Route>
+          </Col>
+          <Col>
+          <Route path="/search">
+            <RestaurantSearch />
+          </Route>
+          </Col>
+          <Col>
+          <Route path="/update">
+            <RestaurantUpdate />
+          </Route>
+          </Col>  
+          </Row>
+       </Router>
+     </div>
+  
   );
 }
 
