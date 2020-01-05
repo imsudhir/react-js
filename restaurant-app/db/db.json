@@ -1,11 +1,11 @@
 {
-    "restaurant": [
+   "restaurant": [
         { "id": 1,
             "name": "pizza hut",
             "rating":"4",
             "email": "pizza@test.com" 
           },
-          { "id": 1,
+         { "id": 1,
             "name": "burger hut",
             "rating":"4",
             "email": "pizza@test.com" 
