@@ -1,0 +1,64 @@
+{
+    "restaurant": [
+        { "id": 1,
+            "name": "pizza hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "burger hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "domino hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "aalu hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "btw hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "pizza hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "kfc hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "pizza hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "kc hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "mava hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "pizza hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          },
+          { "id": 1,
+            "name": "mutton hut",
+            "rating":"4",
+            "email": "pizza@test.com" 
+          }
+    ]
+  } 
