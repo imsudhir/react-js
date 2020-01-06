@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {container, Table, Card, Row, Col} from 'reactstrap';
+import {container, Table, Card, Row, Col, Button, Form, FormGroup, Label, Input, FormText} from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
@@ -35,6 +35,7 @@ class RestaurantList extends Component {
                     <th>Name</th>
                     <th>Email</th>
                     <th>Rating</th>
+                    <th>Address</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -48,6 +49,7 @@ class RestaurantList extends Component {
                             <td>{lists.name}</td>
                             <td>{lists.email}</td>
                             <td>{lists.rating}</td>
+                            <td>{lists.address}</td>
                             </tr>
                       )  
                       }))

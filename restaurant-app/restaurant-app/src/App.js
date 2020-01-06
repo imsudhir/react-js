@@ -18,33 +18,17 @@ function App() {
     <div className="App container-fluid">
       <Router>
       <NavLink />  
-    <Row>
+    <Row className="mt-4 container">
         <Col>
           <Route path="/list">
             <RestaurantList />
           </Route>
           </Col>
-          <Col>
-          <Route path="/list">
-            <RestaurantList />
-          </Route>
-          </Col>
-          <Col>
-          <Route path="/list">
-            <RestaurantList />
-          </Route>
-          </Col><Col>
-          <Route path="/list">
-            <RestaurantList />
-          </Route>
-          </Col>
           </Row>
-          <Row>
-          <Col>
           <Route path="/create">
             <RestaurantCreate />
           </Route> 
-          </Col>
+          <Row>
           <Col>
           <Route path="/detail">
             <RestaurantDetail />
