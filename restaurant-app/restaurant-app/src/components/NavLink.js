@@ -19,7 +19,7 @@ import {
     DropdownItem
   } from 'reactstrap';
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faCoffee,faHome,faList,faPlus,faEdit,faSearch, } from '@fortawesome/free-solid-svg-icons'
+  import { faCoffee,faHome,faList,faPlus,faEdit,faSearch} from '@fortawesome/free-solid-svg-icons'
 
   const style1 = {
     backgroundColor:'#85b3e2'
@@ -29,8 +29,7 @@ import {
     {to:'list', text:' List', icon: faList},
     {to:'create', text:' Create', icon: faPlus},
     {to:'search', text:' Search', icon: faSearch},
-    {to:'detail', text:' Detail', icon: faCoffee},
-    {to:'update', text:' Update', icon: faCoffee}
+    {to:'detail', text:' Detail', icon: faCoffee}
   ];
   const Creatitemenunav = (props) =>{
   const navitems = props.navitems;

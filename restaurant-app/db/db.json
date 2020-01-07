@@ -1,32 +1,32 @@
 {
   "restaurant": [
     {
-      "id": 1,
       "name": "pizza hut",
-      "rating": "4",
       "email": "pizza@test.com",
-      "address": "Gali no. 10 Dwarka, Delhi "
+      "rating": "3",
+      "address": "Gali no. 10 Dwarka, Delhi",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "burger hut",
-      "rating": "4",
-      "email": "pizza@test.com",
-      "address": "Gali no. 10 Dwarka, Delhi "
+      "name": "burger hut1",
+      "email": "pizza1@test.com",
+      "rating": "2",
+      "address": "Gali no. 11 Dwarka, Delhi ",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "domino hut",
-      "rating": "4",
+      "name": "dominos hut",
       "email": "pizza@test.com",
-      "address": "Gali no. 10 Dwarka, Delhi "
+      "rating": "4",
+      "address": "Gali no. 10 Dwarka, Delhi ",
+      "id": 3
     },
     {
-      "id": 4,
       "name": "aalu hut",
-      "rating": "4",
       "email": "pizza@test.com",
-      "address": "Gali no. 10 Dwarka, Delhi"
+      "rating": "4",
+      "address": "Gali no. 10 Dwarka, Delhi",
+      "id": 4
     },
     {
       "id": 5,
@@ -43,19 +43,32 @@
       "address": "Gali no. 10 Dwarka, Delhi"
     },
     {
-      "id": 7,
       "name": "kfc hut",
-      "rating": "4",
       "email": "pizza@test.com",
-      "address": "Gali no. 10 Dwarka, Delhi "
+      "rating": "5",
+      "address": "Gali no. 10 Dwarka, Delhi ",
+      "id": 7
     },
     {
-      "id": 8,
-      "name": "pizza hut",
+      "name": "jcm huts",
+      "email": "jc@test.com",
+      "rating": "4.9",
+      "address": "janakpuri dc",
+      "id": 8
+    },
+    {
+      "name": "Sudhir",
+      "email": "pizza@test.com",
+      "rating": "4.9",
+      "address": "Vishwasadan building first floor",
+      "id": 9
+    },
+    {
+      "name": "gh",
+      "email": "gh@gmail.com",
       "rating": "4",
-      "email": "pizzhja@test.com",
-      "address": "Gali no. 10 Dwarka, Delhi "
+      "address": "B-316 NEAR NEW ASHOKNAGAR METRO STATION (DELHI)",
+      "id": 10
     }
-    
   ]
 }

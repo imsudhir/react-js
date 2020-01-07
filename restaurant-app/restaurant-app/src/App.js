@@ -28,8 +28,7 @@ function App() {
           <Route path="/create">
             <RestaurantCreate />
           </Route> 
-          <Row>
-          <Col>
+           <Col>
           <Route path="/detail">
             <RestaurantDetail />
           </Route>
@@ -39,9 +38,11 @@ function App() {
             <RestaurantSearch />
           </Route>
           </Col>
+          <Row>
           <Col>
-          <Route path="/update">
-            <RestaurantUpdate />
+          <Route path="/update/:id" render={props =>(
+            <RestaurantUpdate {...props}/>
+          ) }>
           </Route>
           </Col>  
           </Row>

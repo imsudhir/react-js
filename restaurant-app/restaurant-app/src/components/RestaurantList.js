@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 import {container, Table, Card, Row, Col, Button, Form, FormGroup, Label, Input, FormText} from 'reactstrap';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    NavLink,
+    Link
+  } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
@@ -36,6 +43,7 @@ class RestaurantList extends Component {
                     <th>Email</th>
                     <th>Rating</th>
                     <th>Address</th>
+                    <th>Operation</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -50,6 +58,7 @@ class RestaurantList extends Component {
                             <td>{lists.email}</td>
                             <td>{lists.rating}</td>
                             <td>{lists.address}</td>
+                            <td><NavLink tag={Link} to={"/update/"+lists.id} >Edit</NavLink></td>
                             </tr>
                       )  
                       }))
