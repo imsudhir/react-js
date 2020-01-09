@@ -17,14 +17,18 @@ function App() {
   return ( 
     <div className="App container-fluid">
       <Router>
-      <NavLink />  
-    <Row className="mt-4 container">
-        <Col>
-          <Route path="/list">
-            <RestaurantList />
-          </Route>
+      <Row> <Col><NavLink /></Col></Row>
+    <Row className="mt-4  ">
+          <Col lg="1">
+            </Col>
+          <Col>
+            <Route path="/list">
+              <RestaurantList />
+            </Route>
+            </Col>
+            <Col lg="1">
           </Col>
-          </Row>
+        </Row>
           <Route path="/create">
             <RestaurantCreate />
           </Route> 
@@ -33,11 +37,15 @@ function App() {
             <RestaurantDetail />
           </Route>
           </Col>
+          <Row>
+          <Col lg="1"></Col>
           <Col>
           <Route path="/search">
             <RestaurantSearch />
           </Route>
           </Col>
+          <Col lg="1"></Col>
+          </Row>
           <Row>
           <Col>
           <Route path="/update/:id" render={props =>(

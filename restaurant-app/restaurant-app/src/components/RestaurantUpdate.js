@@ -38,6 +38,7 @@
         })
         .then((result) => {result.json().then((res)=>{
         alert("Rrestaurant updated Successfully")
+        this.props.history.push('/list');
         })
      })
     }

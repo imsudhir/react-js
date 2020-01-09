@@ -21,6 +21,7 @@ class RestaurentCreate extends Component {
             body : JSON.stringify(this.state)
         }).then((result) => {result.json().then((res)=>{
         alert("Rrestaurant Added Successfully")
+
         })
     })
     console.log(this.state);

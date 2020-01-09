@@ -28,8 +28,7 @@ import {
     {to:'Home', text:' Home', icon:faHome},
     {to:'list', text:' List', icon: faList},
     {to:'create', text:' Create', icon: faPlus},
-    {to:'search', text:' Search', icon: faSearch},
-    {to:'detail', text:' Detail', icon: faCoffee}
+    {to:'search', text:' Search', icon: faSearch} 
   ];
   const Creatitemenunav = (props) =>{
   const navitems = props.navitems;

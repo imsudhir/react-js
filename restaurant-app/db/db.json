@@ -1,74 +1,95 @@
 {
   "restaurant": [
     {
-      "name": "pizza hut",
+      "name": "pizza hutq",
       "email": "pizza@test.com",
       "rating": "3",
       "address": "Gali no. 10 Dwarka, Delhi",
       "id": 1
     },
     {
-      "name": "burger hut1",
-      "email": "pizza1@test.com",
-      "rating": "2",
-      "address": "Gali no. 11 Dwarka, Delhi ",
-      "id": 2
+      "name": "ab vg",
+      "email": "sudhirsingh@gmail.com",
+      "rating": "1",
+      "address": "B-316 NEAR NEW ASHOKNAGAR METRO STATION (DELHI)",
+      "id": 18
     },
     {
-      "name": "dominos hut",
-      "email": "pizza@test.com",
-      "rating": "4",
-      "address": "Gali no. 10 Dwarka, Delhi ",
-      "id": 3
-    },
-    {
-      "name": "aalu hut",
-      "email": "pizza@test.com",
-      "rating": "4",
-      "address": "Gali no. 10 Dwarka, Delhi",
-      "id": 4
-    },
-    {
-      "id": 5,
-      "name": "btw hut",
-      "rating": "4",
-      "email": "pizza@test.com",
-      "address": "Gali no. 10 Dwarka, Delhi"
-    },
-    {
-      "id": 6,
-      "name": "pizza hut",
-      "rating": "4",
-      "email": "pizza@test.com",
-      "address": "Gali no. 10 Dwarka, Delhi"
-    },
-    {
-      "name": "kfc hut",
-      "email": "pizza@test.com",
-      "rating": "5",
-      "address": "Gali no. 10 Dwarka, Delhi ",
-      "id": 7
-    },
-    {
-      "name": "jcm huts",
-      "email": "jc@test.com",
-      "rating": "4.9",
-      "address": "janakpuri dc",
-      "id": 8
-    },
-    {
-      "name": "Sudhir",
-      "email": "pizza@test.com",
-      "rating": "4.9",
-      "address": "Vishwasadan building first floor",
-      "id": 9
-    },
-    {
-      "name": "gh",
-      "email": "gh@gmail.com",
+      "name": "hot cup",
+      "email": "sudhirsingh@gmail.com",
       "rating": "4",
       "address": "B-316 NEAR NEW ASHOKNAGAR METRO STATION (DELHI)",
-      "id": 10
+      "id": 23
+    },
+    {
+      "name": "food masala",
+      "email": "sudhirsingh@gmail.com",
+      "rating": "4",
+      "address": "B-7 METRO STATION (DELHI)",
+      "id": 24
+    },
+    {
+      "name": "qwertyu",
+      "email": "n@gmail.com",
+      "rating": "3",
+      "address": "ghjk jhjkjk",
+      "id": 25
+    },
+    {
+      "name": "qwertyuu",
+      "email": "n@gmail.com",
+      "rating": "3",
+      "address": "ghjk jhjkjk",
+      "id": 26
+    },
+    {
+      "name": "qwertyuu",
+      "email": "n@gmail.com",
+      "rating": "3",
+      "address": "ghjk jhjkjk",
+      "id": 27
+    },
+    {
+      "name": "qwertyuu",
+      "email": "n@gmail.com",
+      "rating": "3",
+      "address": "ghjk jhjkjk",
+      "id": 28
+    },
+    {
+      "id": 29,
+      "name": "pizza hut",
+      "rating": "4",
+      "email": "qwertyuiolkjhgfdsdcvbnm@test.com",
+      "address": "gfdghj 5678"
+    },
+    {
+      "name": "sudhir kumar singh",
+      "email": "sudhirsingh@gmail.com",
+      "rating": "2",
+      "address": "B-316 NEAR NEW ASHOKNAGAR METRO STATION (DELHI)",
+      "id": 30
+    },
+    {
+      "name": "uiu7",
+      "email": "sudhirsingh@gmail.com",
+      "rating": "8",
+      "address": "B-316 NEAR NEW ASHOKNAGAR METRO STATION (DELHI)",
+      "id": 31
+    },
+    {
+      "name": "uiu7",
+      "email": "sudhirsingh@gmail.com",
+      "rating": "8",
+      "address": "B-316 NEAR NEW ASHOKNAGAR METRO STATION (DELHI)",
+      "id": 32
+    },
+    {
+      "id": 38,
+      "name": "pizza hut",
+      "rating": "4",
+      "email": "qwertyuiolkjhgfdsdcvbnm@test.com",
+      "address": "gfdghj 5678"
     }
   ]
 }

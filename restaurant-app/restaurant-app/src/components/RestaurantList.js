@@ -8,7 +8,7 @@ import {
     Link
   } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faEdit, faDelet, faTrash } from '@fortawesome/free-solid-svg-icons'
 
 
 class RestaurantList extends Component {
@@ -18,7 +18,8 @@ class RestaurantList extends Component {
             list:null,
         }
     }
-    componentDidMount(){
+
+    handleListing = () => {
         fetch("http://localhost:3000/restaurant")
         .then((res) => res.json()
         .then((result) => {
@@ -31,11 +32,30 @@ class RestaurantList extends Component {
         })
         )
     }
+    componentDidMount(){
+        this.handleListing();
+    }
+
+     handleDelete = (id) =>{
+        fetch("http://localhost:3000/restaurant/"+id,
+        {
+            method : "DELETE",
+        })
+        .then((result) => {result.json().then((res)=>{
+            console.log(res);
+        alert("Rrestaurant deleted Successfully")
+        this.handleListing();
+
+        })
+     })
+
+    }
+
     render() {
         return (
            <React.Fragment>
             <h2 className="text-center pb-2 ml-5 mr-5 pt-1 headings"> Restaurant list</h2>
-            <Table dark>
+            <Table striped hover bordered>
                 <thead>
                     <tr>
                     <th>Sr.</th>
@@ -58,7 +78,9 @@ class RestaurantList extends Component {
                             <td>{lists.email}</td>
                             <td>{lists.rating}</td>
                             <td>{lists.address}</td>
-                            <td><NavLink tag={Link} to={"/update/"+lists.id} >Edit</NavLink></td>
+                            <td><NavLink tag={Link} to={"/update/"+lists.id} > <FontAwesomeIcon icon = {faEdit}/></NavLink> 
+                             <span onClick={(e)=>{this.handleDelete(lists.id)}} > 
+                             <FontAwesomeIcon className="ml-3" color="red" cursor="pointer" icon = {faTrash}/></span></td>
                             </tr>
                       )  
                       }))
