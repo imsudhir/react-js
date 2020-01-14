@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <head>
+       <title>titleeee </title>
+       <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <h1>fetch api</h1>
+        <button id="mybtn"> fetch</button>     
+
+<script type='text/javascript'>
+document.getElementById("mybtn").onclick = () => {
+    const url = "http://localhost:3002/home";
+    fetch(url)
+    .then(res =>res.json())
+    .then(res2 => console.log(res2))
+    .catch(error => console.log('Authorizationghh failed : ' + error.message));
+
+    }
+</script>
+    </body>
+    </html>

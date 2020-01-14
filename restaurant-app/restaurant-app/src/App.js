@@ -6,7 +6,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import NavLink from "./components/NavLink"
+import NavigationLink from "./components/NavLink"
 import RestaurantCreate from "./components/RestaurantCreate";
 import RestaurantDetail from "./components/RestaurantDetail";
 import RestaurantList from "./components/RestaurantList";
@@ -17,7 +17,7 @@ function App() {
   return ( 
     <div className="App container-fluid">
       <Router>
-      <Row> <Col><NavLink /></Col></Row>
+      <Row> <Col><NavigationLink /></Col></Row>
     <Row className="mt-4  ">
           <Col lg="1">
             </Col>
